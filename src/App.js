@@ -27,49 +27,52 @@ import './App.css';
 // import LazyLoading from './LazyLoading';
 // import FileUploading from './FileUploading';
 // import TypeChecking from './TypeChecking';
-import CustomHooks from './CustomHooks.js';
+// import CustomHooks from './CustomHooks.js';
+import {FragmentExample} from './Fragment'
 
-import('./CodeSpliting').then((result)=>{
-  console.warn("result",result.add(8,9))
-})
+
+// import('./CodeSpliting').then((result)=>{
+//   console.warn("result",result.add(8,9))
+// })
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-        {/* Learn How to work in  React */}
-        {/* <Home /> */}
-        {/* <ClassComponent text="This is class component" data={{name:"test", age:33}}/> */}
-        {/* <ClassComponent text="class same component diffrent props" data={{name:"test2", age:35}}/> */}
-        {/* <FunctionalComponent text=" function same component diffrent props" data={{name:"test2", age:35}}/> */}
-        {/* <FunctionalComponent text="This is functional component" data={{name:"test", age:33}}/> */}
-        {/* <StateExample /> */}
-        {/* <HideShow /> */}
-        {/* <EventBindClass /> */}
-        {/* <EventBindingFunction /> */}
-        {/* <LifeCycle /> */}
-        {/* <ComponentDidMountExample /> */}
-        {/* <CheckComponentUnmout /> */}
-        {/* <UseStateExample /> */}
-        {/* <UseEffectExample /> */}
-        {/* <FormExample /> */}
-        {/* <FormValidation /> */}
-        {/* <MapExample /> */}
-        {/* <StyleFunctional data="disapply" /> */}
-        {/* <RouterExample /> */}
-        {/* <RefExample /> */}
-        {/* <BootstrapModalExample /> */}
-        {/* <ErrorBoundary>
+      {/* Learn How to work in  React */}
+      {/* <Home /> */}
+      {/* <ClassComponent text="This is class component" data={{name:"test", age:33}}/> */}
+      {/* <ClassComponent text="class same component diffrent props" data={{name:"test2", age:35}}/> */}
+      {/* <FunctionalComponent text=" function same component diffrent props" data={{name:"test2", age:35}}/> */}
+      {/* <FunctionalComponent text="This is functional component" data={{name:"test", age:33}}/> */}
+      {/* <StateExample /> */}
+      {/* <HideShow /> */}
+      {/* <EventBindClass /> */}
+      {/* <EventBindingFunction /> */}
+      {/* <LifeCycle /> */}
+      {/* <ComponentDidMountExample /> */}
+      {/* <CheckComponentUnmout /> */}
+      {/* <UseStateExample /> */}
+      {/* <UseEffectExample /> */}
+      {/* <FormExample /> */}
+      {/* <FormValidation /> */}
+      {/* <MapExample /> */}
+      {/* <StyleFunctional data="disapply" /> */}
+      {/* <RouterExample /> */}
+      {/* <RefExample /> */}
+      {/* <BootstrapModalExample /> */}
+      {/* <ErrorBoundary>
         <UserErrorExample />
         </ErrorBoundary> */}
-        {/* <PureComponentExample /> */}
-        {/* <MemoParantComponent /> */}
-        {/* <UncontrolledComponent /> */}
-        {/* <LazyLoading /> */}
-        {/* <FileUploading /> */}
-        {/* <TypeChecking name="Nisha" age={30} /> */}
-        {/* <CustomHooks /> */}
-        <p>Please check console over it I have printed result of output of CodeSpliting Component</p>
+      {/* <PureComponentExample /> */}
+      {/* <MemoParantComponent /> */}
+      {/* <UncontrolledComponent /> */}
+      {/* <LazyLoading /> */}
+      {/* <FileUploading /> */}
+      {/* <TypeChecking name="Nisha" age={30} /> */}
+      {/* <CustomHooks /> */}
+      {/* <p>Please check console over it I have printed result of output of CodeSpliting Component</p> */}
+      <FragmentExample />
       {/* </header> */}
     </div>
   );
