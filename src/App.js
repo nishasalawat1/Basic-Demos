@@ -29,10 +29,14 @@ import './App.css';
 // import TypeChecking from './TypeChecking';
 import CustomHooks from './CustomHooks.js';
 
+import('./CodeSpliting').then((result)=>{
+  console.warn("result",result.add(8,9))
+})
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* Learn How to work in  React */}
         {/* <Home /> */}
         {/* <ClassComponent text="This is class component" data={{name:"test", age:33}}/> */}
@@ -64,8 +68,9 @@ function App() {
         {/* <LazyLoading /> */}
         {/* <FileUploading /> */}
         {/* <TypeChecking name="Nisha" age={30} /> */}
-        <CustomHooks />
-      </header>
+        {/* <CustomHooks /> */}
+        <p>Please check console over it I have printed result of output of CodeSpliting Component</p>
+      {/* </header> */}
     </div>
   );
 }
