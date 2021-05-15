@@ -29,7 +29,8 @@ import './App.css';
 // import TypeChecking from './TypeChecking';
 // import CustomHooks from './CustomHooks.js';
 // import {FragmentExample} from './Fragment'
-import {CreateElementExample} from './CreateElementExample'
+// import {CreateElementExample} from './CreateElementExample';
+import {ContextAPIExample} from './ContextAPIExample';
 
 // import('./CodeSpliting').then((result)=>{
 //   console.warn("result",result.add(8,9))
@@ -73,7 +74,8 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <p>Please check console over it I have printed result of output of CodeSpliting Component</p> */}
       {/* <FragmentExample /> */}
-      <CreateElementExample />
+      {/* <CreateElementExample /> */}
+      <ContextAPIExample />
       {/* </header> */}
     </div>
   );
