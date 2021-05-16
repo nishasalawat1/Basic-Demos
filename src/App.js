@@ -31,7 +31,8 @@ import './App.css';
 // import {FragmentExample} from './Fragment'
 // import {CreateElementExample} from './CreateElementExample';
 // import {ContextAPIExample} from './ContextAPIExample';
-import RefExampleParent from './RefExampleParent';
+// import RefExampleParent from './RefExampleParent';
+import RecoilExample from './RecoilExample'; 
 
 // import('./CodeSpliting').then((result)=>{
 //   console.warn("result",result.add(8,9))
@@ -77,7 +78,8 @@ function App() {
       {/* <FragmentExample /> */}
       {/* <CreateElementExample /> */}
       {/* <ContextAPIExample /> */}
-      <RefExampleParent />
+      {/* <RefExampleParent /> */}
+      <RecoilExample />
       {/* </header> */}
     </div>
   );
